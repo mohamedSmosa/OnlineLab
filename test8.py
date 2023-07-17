@@ -1,1 +1,86 @@
-aW1wb3J0IHRraW50ZXIgYXMgdGsNCmZyb20gdGtpbnRlciBpbXBvcnQgZmlsZWRpYWxvZw0KZnJvbSBnaXRodWIgaW1wb3J0IEdpdGh1Yg0KaW1wb3J0IGJhc2U2NA0KDQpzZWxlY3RlZF9maWxlX3BhdGggPSBOb25lDQoNCmRlZiBzZWxlY3RfZmlsZSgpOg0KICAgIGdsb2JhbCBzZWxlY3RlZF9maWxlX3BhdGgNCiAgICBzZWxlY3RlZF9maWxlX3BhdGggPSBmaWxlZGlhbG9nLmFza29wZW5maWxlbmFtZSh0aXRsZT0iU2VsZWN0IEZpbGUgdG8gVXBsb2FkIikNCiAgICBpZiBzZWxlY3RlZF9maWxlX3BhdGg6DQogICAgICAgIGZpbGVfbGFiZWwuY29uZmlnKHRleHQ9ZiJTZWxlY3RlZCBGaWxlOiB7c2VsZWN0ZWRfZmlsZV9wYXRofSIpDQogICAgZWxzZToNCiAgICAgICAgZmlsZV9sYWJlbC5jb25maWcodGV4dD0iU2VsZWN0ZWQgRmlsZTogIikNCg0KZGVmIHVwbG9hZF90b19naXRodWIoKToNCiAgICBnbG9iYWwgc2VsZWN0ZWRfZmlsZV9wYXRoDQogICAgaWYgbm90IHNlbGVjdGVkX2ZpbGVfcGF0aDoNCiAgICAgICAgcmVzdWx0X2xhYmVsLmNvbmZpZyh0ZXh0PSJQbGVhc2Ugc2VsZWN0IGEgZmlsZS4iLCBmZz0icmVkIikNCiAgICAgICAgcmV0dXJuDQoNCiAgICB0b2tlbiA9IGVudHJ5X3Rva2VuLmdldCgpDQogICAgb3duZXIgPSAiT25saW5lTGFiUHJvamVjdCINCiAgICByZXBvX25hbWUgPSAiT25saW5lTGFiIg0KICAgIGJyYW5jaCA9ICJtYWluIiAgIyBvciB0aGUgZGVzaXJlZCBicmFuY2gNCiAgICBjb21taXRfbWVzc2FnZSA9ICJVcGRhdGUgZmlsZSB2aWEgQVBJIiAgIyBDb21taXQgbWVzc2FnZSBmb3IgdGhlIHVwbG9hZA0KICAgIA0KICAgIHRhcmdldF9wYXRoID0gZW50cnlfdGFyZ2V0X3BhdGguZ2V0KCkgICMgR2V0IHRoZSB0YXJnZXQgcGF0aCBmcm9tIHRoZSBlbnRyeSB3aWRnZXQNCiAgICBpZiBub3QgdGFyZ2V0X3BhdGg6DQogICAgICAgIHJlc3VsdF9sYWJlbC5jb25maWcodGV4dD0iVGFyZ2V0IHBhdGggY2Fubm90IGJlIGVtcHR5LiIsIGZnPSJyZWQiKQ0KICAgICAgICByZXR1cm4NCg0KICAgIGcgPSBHaXRodWIodG9rZW4pDQogICAgdXNlciA9IGcuZ2V0X3VzZXIoKQ0KICAgIHJlcG8gPSB1c2VyLmdldF9yZXBvKHJlcG9fbmFtZSkNCiAgICANCiAgICB0cnk6DQogICAgICAgIGNvbnRlbnRzID0gcmVwby5nZXRfY29udGVudHModGFyZ2V0X3BhdGgpDQogICAgICAgIGV4aXN0aW5nX2NvbnRlbnQgPSBiYXNlNjQuYjY0ZGVjb2RlKGNvbnRlbnRzLmNvbnRlbnQpLmRlY29kZSgndXRmLTgnKSAgIyBEZWNvZGUgZXhpc3RpbmcgY29udGVudA0KICAgICAgICB3aXRoIG9wZW4oc2VsZWN0ZWRfZmlsZV9wYXRoLCAiciIpIGFzIGZpbGU6DQogICAgICAgICAgICBuZXdfY29udGVudCA9IGZpbGUucmVhZCgpDQoNCiAgICAgICAgaWYgZXhpc3RpbmdfY29udGVudCA9PSBuZXdfY29udGVudDoNCiAgICAgICAgICAgIHJlc3VsdF9sYWJlbC5jb25maWcodGV4dD0iRmlsZSBjb250ZW50IGlzIHVwIHRvIGRhdGUuIiwgZmc9ImJsdWUiKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgIyBVcGRhdGUgdGhlIGZpbGUgY29udGVudA0KICAgICAgICAgICAgd2l0aCBvcGVuKHNlbGVjdGVkX2ZpbGVfcGF0aCwgInJiIikgYXMgZmlsZToNCiAgICAgICAgICAgICAgICBjb250ZW50ID0gZmlsZS5yZWFkKCkNCiAgICAgICAgICAgIGNvbnRlbnRfYmFzZTY0ID0gYmFzZTY0LmI2NGVuY29kZShjb250ZW50KS5kZWNvZGUoJ3V0Zi04JykgICMgQmFzZTY0IGVuY29kZSB0aGUgY29udGVudA0KICAgICAgICAgICAgcmVwby51cGRhdGVfZmlsZShjb250ZW50cy5wYXRoLCBjb21taXRfbWVzc2FnZSwgY29udGVudF9iYXNlNjQsIGNvbnRlbnRzLnNoYSwgYnJhbmNoPWJyYW5jaCkNCiAgICAgICAgICAgIHJlc3VsdF9sYWJlbC5jb25maWcodGV4dD0iRmlsZSBjb250ZW50IHVwZGF0ZWQgc3VjY2Vzc2Z1bGx5LiIsIGZnPSJncmVlbiIpDQogICAgZXhjZXB0Og0KICAgICAgICAjIEZpbGUgZG9lc24ndCBleGlzdCwgc28gd2UnbGwgY3JlYXRlIGl0DQogICAgICAgIHdpdGggb3BlbihzZWxlY3RlZF9maWxlX3BhdGgsICJyYiIpIGFzIGZpbGU6DQogICAgICAgICAgICBjb250ZW50ID0gZmlsZS5yZWFkKCkNCiAgICAgICAgY29udGVudF9iYXNlNjQgPSBiYXNlNjQuYjY0ZW5jb2RlKGNvbnRlbnQpLmRlY29kZSgndXRmLTgnKSAgIyBCYXNlNjQgZW5jb2RlIHRoZSBjb250ZW50DQogICAgICAgIHJlcG8uY3JlYXRlX2ZpbGUodGFyZ2V0X3BhdGgsIGNvbW1pdF9tZXNzYWdlLCBjb250ZW50X2Jhc2U2NCwgYnJhbmNoPWJyYW5jaCkNCiAgICAgICAgcmVzdWx0X2xhYmVsLmNvbmZpZyh0ZXh0PSJGaWxlIHVwbG9hZGVkIHN1Y2Nlc3NmdWxseS4iLCBmZz0iZ3JlZW4iKQ0KDQojIEdVSSBzZXR1cA0Kcm9vdCA9IHRrLlRrKCkNCnJvb3QudGl0bGUoIkdpdEh1YiBGaWxlIFVwbG9hZGVyIikNCnJvb3QuZ2VvbWV0cnkoIjQwMHgzMDAiKQ0KDQpsYWJlbF90b2tlbiA9IHRrLkxhYmVsKHJvb3QsIHRleHQ9IkVudGVyIEdpdEh1YiBQZXJzb25hbCBBY2Nlc3MgVG9rZW46IikNCmxhYmVsX3Rva2VuLnBhY2soKQ0KDQplbnRyeV90b2tlbiA9IHRrLkVudHJ5KHJvb3QsIHNob3c9IioiKQ0KZW50cnlfdG9rZW4ucGFjaygpDQoNCmZpbGVfbGFiZWwgPSB0ay5MYWJlbChyb290LCB0ZXh0PSJTZWxlY3RlZCBGaWxlOiAiKQ0KZmlsZV9sYWJlbC5wYWNrKCkNCg0KYnV0dG9uX3NlbGVjdF9maWxlID0gdGsuQnV0dG9uKHJvb3QsIHRleHQ9IlNlbGVjdCBGaWxlIiwgY29tbWFuZD1zZWxlY3RfZmlsZSkNCmJ1dHRvbl9zZWxlY3RfZmlsZS5wYWNrKCkNCg0KbGFiZWxfdGFyZ2V0X3BhdGggPSB0ay5MYWJlbChyb290LCB0ZXh0PSJFbnRlciB0aGUgdGFyZ2V0IHBhdGggaW5zaWRlIHRoZSByZXBvc2l0b3J5OiIpDQpsYWJlbF90YXJnZXRfcGF0aC5wYWNrKCkNCg0KZW50cnlfdGFyZ2V0X3BhdGggPSB0ay5FbnRyeShyb290KQ0KZW50cnlfdGFyZ2V0X3BhdGgucGFjaygpDQoNCmJ1dHRvbl9zZW5kID0gdGsuQnV0dG9uKHJvb3QsIHRleHQ9IlNlbmQiLCBjb21tYW5kPXVwbG9hZF90b19naXRodWIpDQpidXR0b25fc2VuZC5wYWNrKCkNCg0KcmVzdWx0X2xhYmVsID0gdGsuTGFiZWwocm9vdCwgdGV4dD0iIiwgZmc9ImJsYWNrIikNCnJlc3VsdF9sYWJlbC5wYWNrKCkNCg0Kcm9vdC5tYWlubG9vcCgpDQo=
+import tkinter as tk
+from tkinter import filedialog
+from github import Github
+
+selected_file_path = None
+
+def select_file():
+    global selected_file_path
+    selected_file_path = filedialog.askopenfilename(title="Select File to Upload")
+    if selected_file_path:
+        file_label.config(text=f"Selected File: {selected_file_path}")
+    else:
+        file_label.config(text="Selected File: ")
+
+def upload_to_github():
+    global selected_file_path
+    if not selected_file_path:
+        result_label.config(text="Please select a file.", fg="red")
+        return
+
+    token = entry_token.get()
+    owner = "OnlineLabProject"
+    repo_name = "OnlineLab"
+    branch = "main"  # or the desired branch
+    commit_message = "Update file via API"  # Commit message for the upload
+    
+    target_path = entry_target_path.get()  # Get the target path from the entry widget
+    if not target_path:
+        result_label.config(text="Target path cannot be empty.", fg="red")
+        return
+
+    g = Github(token)
+    user = g.get_user()
+    repo = user.get_repo(repo_name)
+    
+    try:
+        contents = repo.get_contents(target_path)
+        existing_content = contents.decoded_content.decode("utf-8")
+        with open(selected_file_path, "rb") as file:
+            new_content = file.read().decode("utf-8")
+
+        if existing_content == new_content:
+            result_label.config(text="File content is up to date.", fg="blue")
+        else:
+            # Update the file content
+            with open(selected_file_path, "rb") as file:
+                content = file.read()
+            repo.update_file(contents.path, commit_message, content, contents.sha, branch=branch)
+            result_label.config(text="File content updated successfully.", fg="green")
+    except:
+        # File doesn't exist, so we'll create it
+        with open(selected_file_path, "rb") as file:
+            content = file.read()
+        repo.create_file(target_path, commit_message, content, branch=branch)
+        result_label.config(text="File uploaded successfully.", fg="green")
+
+# GUI setup
+root = tk.Tk()
+root.title("GitHub File Uploader")
+root.geometry("400x300")
+
+label_token = tk.Label(root, text="Enter GitHub Personal Access Token:")
+label_token.pack()
+
+entry_token = tk.Entry(root, show="*")
+entry_token.pack()
+
+file_label = tk.Label(root, text="Selected File: ")
+file_label.pack()
+
+button_select_file = tk.Button(root, text="Select File", command=select_file)
+button_select_file.pack()
+
+label_target_path = tk.Label(root, text="Enter the target path inside the repository:")
+label_target_path.pack()
+
+entry_target_path = tk.Entry(root)
+entry_target_path.pack()
+
+button_send = tk.Button(root, text="Send", command=upload_to_github)
+button_send.pack()
+
+result_label = tk.Label(root, text="", fg="black")
+result_label.pack()
+
+root.mainloop()
