@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark mode background color */
-    color: #fff; /* Text color for dark mode */
+    background-color: #f2f2f2; /* Dark mode background color */
+    color: #000000; /* Text color for dark mode */
 }
 
 .container {
@@ -13,12 +13,12 @@ body {
     border: 1px solid #007bff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #1f1f1f; /* Dark mode background color for the container */
+    background-color: #f2f2f2; /* Dark mode background color for the container */
 }
 
 h1 {
     text-align: center;
-    color: #fff; /* Heading text color for dark mode */
+    color: #007bff; /* Heading text color for dark mode */
 }
 
 p {
@@ -57,7 +57,7 @@ img {
     }
 }
 
-/* Link styles */
+/* Modern Back to Home Button */
 .back-to-home {
     text-align: center;
     margin-top: 20px;
@@ -71,8 +71,20 @@ img {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .back-to-home a:hover {
-    background-color: #007bff; /* Hovered link background color */
+    background-color: #0056b3; /* Hovered link background color */
+}
+
+.back-to-home a:focus {
+    outline: none;
+    background-color: #0056b3; /* Focused link background color */
+    transform: scale(1.05);
+}
+
+.back-to-home a:active {
+    background-color: #003a80; /* Active link background color */
+    transform: translateY(2px);
 }

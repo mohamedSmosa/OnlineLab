@@ -1,6 +1,7 @@
+import requests
 import tkinter as tk
 from tkinter import filedialog
-from github import Github
+import base64
 
 selected_file_path = None
 
@@ -20,39 +21,39 @@ def upload_to_github():
 
     token = entry_token.get()
     owner = "OnlineLabProject"
-    repo_name = "OnlineLab"
+    repo = "OnlineLab"
     branch = "main"  # or the desired branch
-    commit_message = "Update file via API"  # Commit message for the upload
+    commit_message = "Upload file via API"  # Commit message for the upload
     
     target_path = entry_target_path.get()  # Get the target path from the entry widget
     if not target_path:
         result_label.config(text="Target path cannot be empty.", fg="red")
         return
-
-    g = Github(token)
-    user = g.get_user()
-    repo = user.get_repo(repo_name)
     
-    try:
-        contents = repo.get_contents(target_path)
-        existing_content = contents.decoded_content.decode("utf-8")
-        with open(selected_file_path, "rb") as file:
-            new_content = file.read().decode("utf-8")
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{target_path}"
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
 
-        if existing_content == new_content:
-            result_label.config(text="File content is up to date.", fg="blue")
-        else:
-            # Update the file content
-            with open(selected_file_path, "rb") as file:
-                content = file.read()
-            repo.update_file(contents.path, commit_message, content, contents.sha, branch=branch)
-            result_label.config(text="File content updated successfully.", fg="green")
-    except:
-        # File doesn't exist, so we'll create it
-        with open(selected_file_path, "rb") as file:
-            content = file.read()
-        repo.create_file(target_path, commit_message, content, branch=branch)
+    with open(selected_file_path, "rb") as file:
+        content = file.read()
+    
+    content_base64 = base64.b64encode(content).decode('utf-8')  # Base64 encode the content
+
+    data = {
+        "message": commit_message,
+        "content": content_base64,  # Use the base64-encoded content in the JSON data
+        "branch": branch
+    }
+
+    response = requests.put(url, headers=headers, json=data)
+
+    if response.status_code == 201:
         result_label.config(text="File uploaded successfully.", fg="green")
+    else:
+        error_message = response.json().get('message', 'Unknown error')
+        result_label.config(text=f"Failed to upload the file. Error: {error_message}", fg="red")
 
 # GUI setup
 root = tk.Tk()
